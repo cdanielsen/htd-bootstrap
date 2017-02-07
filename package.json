@@ -1,0 +1,24 @@
+{
+  "name": "htd-bootstrap",
+  "version": "1.0.0",
+  "description": "Boilerplate  stuff for a HTD site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Uhhh, no time for tests'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdanielsen/htd-bootstrap.git"
+  },
+  "keywords": [
+    "hackathon",
+    "improv",
+    "booze"
+  ],
+  "author": "Christian Danielsen, et al",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdanielsen/htd-bootstrap/issues"
+  },
+  "homepage": "https://github.com/cdanielsen/htd-bootstrap#readme"
+}
