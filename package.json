@@ -4,7 +4,10 @@
   "description": "Boilerplate  stuff for a HTD site",
   "main": "index.js",
   "scripts": {
-    "test": "echo 'Uhhh, no time for tests'"
+    "test": "echo 'Uhhh, no time for tests'",
+    "start": "nodemon node_modules/http-server/bin/http-server",
+    "prestart": "npm install",
+    "launch": "/usr/bin/open -a '/Applications/Google Chrome.app' 'http://127.0.0.1:8080/'"
   },
   "repository": {
     "type": "git",
@@ -20,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/cdanielsen/htd-bootstrap/issues"
   },
-  "homepage": "https://github.com/cdanielsen/htd-bootstrap#readme"
+  "homepage": "https://github.com/cdanielsen/htd-bootstrap#readme",
+  "dependencies": {
+    "http-server": "^0.9.0",
+    "nodemon": "^1.11.0"
+  }
 }
