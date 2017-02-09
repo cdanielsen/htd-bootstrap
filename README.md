@@ -1,9 +1,9 @@
 ### Hack The Dot Starter Kit ###
 
-##### Ready
+#### Ready ####
 - Install the latest version of node
-##### Set
+#### Set ####
 - Clone this repo
-##### Go
+#### Go ####
 - Run `npm start` from your shell to start the server
 - In a new shell window, run `npm run launch` to launch the site
