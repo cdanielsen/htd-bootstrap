@@ -5,9 +5,14 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
+      <sec id=splash>
+        <h1>PDX GAMES</h1>
+        <h3>They're going to be the best games, the biggest games you've ever seen</h3>
+        <img class="img-fluid" src="https://cdn-images-1.medium.com/max/2000/1*yPoCneKtF0aZ51I2ZCQHpg.jpeg">
+      </sec>
       <sec id=registration>
-        <h1>All Portland citizens must register with the form below</h1>
+        <h1>All Portland "citizens" must register with the form below</h1>
         <form>
           <div class="form-group">
             <label for="name">Name</label>
@@ -82,8 +87,41 @@
         </form>
         <h1 id="score">0%</h1>
       </sec>
-      <sec id=quadrant></sec>
-      <sec id=feature4></sec>
+      <sec id=quadrant>
+        <div class="btn-group">
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup=  "true" aria-expanded="false">
+            Northwest <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="#">Coyotes</a></li>
+            <li><a href="#">Construction Pits</a></li>
+            <li><a href="#">falling construction cranes</a></li>
+            <li><a href="#">hip office buildings in a state of collapse</a></li>
+            <li><a href="#">Landslides</a></li>
+          </ul>
+        </div>
+        <div class="btn-group">
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup=  "true" aria-expanded="false">
+            Southwest <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="#">No food</a></li>
+            <li><a href="#">No supplies</a></li>
+            <li><a href="#">boring</a></li>
+          </ul>
+        </div>
+        <div class="btn-group">
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup=  "true" aria-expanded="false">
+            North <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="#">Zombie Hipsters</a></li>
+            <li><a href="#">Flooding</a></li>
+            <li><a href="#">Always stuck on I5</a></li>
+            <li><a href="#">Dudes constantly hyping St Johns and their houseboats</a></li>
+          </ul>
+        </div>
+      </sec>
     </div>
   </body>
 <!-- jQuery -->
