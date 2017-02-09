@@ -42,7 +42,7 @@
         </form>
       </sec>
       <sec id=questionare>
-        <h1 id="score">Likelyhood of selection: <span id="%">100%</span></h1>
+        <h1 id="score">Likelyhood of selection: <span id="%">???</span></h1>
         <form id="question1">
           <label>Have you donated to the ACLU, ever?</label><br>
           <input type="radio" name="aclu" value="yes" checked>Yes
@@ -70,8 +70,8 @@
           <input type="radio" name="aclu" value="NRA">Very smart, maybe the smartest!
           <label>Are you afraid</label><br>
           <input type="radio" name="aclu" value="yes" checked>You will be!!!!
-          <button class="btn" id="qsubmit">Submit</button>
         </form>
+      <button class="btn" id="qsubmit" onclick="getElementById('%').innerHTML = '120%'">Submit</button>
       </sec>
       <sec id=quadrant>
         <ul style="list-style: none;">
